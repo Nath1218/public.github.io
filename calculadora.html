@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <nav class="menu">
+        <a href="./ejercicio.html"><h1>Inicio</h1></a>
+    </nav>
+    <div class="cuerpo">
+        <div class="titulo">
+            <h1>Calculadora Básica</h1>
+        </div>
+        <div>
+            <label>Número 1: </label>
+            <input id = "numero1" type="number" placeholder="Ingrese un número"></input>
+            <label>Número 2: </label>
+            <input id = "numero2" type="number" placeholder='Ingrese un número'></input>
+            <h3>Selccione la operación: </h3>
+
+            <div class = "operaciones">
+            <input type="radio" name="operacion" id="sumar"></input>
+            <label>Sumar</label>
+            <input type="radio" name="operacion" id="restar"></input>
+            <label>Restar</label>
+            <input type="radio" name="operacion" id="multiplicar"></input>
+            <label>Multiplicar</label>
+            <input type="radio" name="operacion" id="dividir"></input>
+            <label>Dividir</label>
+            </div>
+            <button id="boton">Calcular</button> 
+            <h3>Resultado: </h3> 
+            <p id="resultado"></p>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+
+    <script src="calculadora.js"></script>
+</body>
+</html>

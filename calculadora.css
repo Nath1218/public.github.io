@@ -1,0 +1,76 @@
+body{
+    background-image: url(photos/fd4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cuerpo{
+    border: 4px solid black;
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+}
+.menu{
+    background-image: url(photos/fd1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    padding: auto;
+    border: 2px solid black;
+}
+
+.menu h1{
+    margin: 10px;
+    color: white;
+    width: 5%;
+    border-radius: 10%;
+    text-align: center;
+}
+.titulo{
+    background-color: black;
+    color:#B55EFE
+}
+
+div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #B55EFE;
+}
+
+label{
+    margin: 20px;
+}
+
+h3{
+    border-top: 2px solid black;
+    margin-top: 30px;
+    width: 90%;
+    text-align: center;
+}
+
+input{
+    border-radius: 10%;
+    background-color: black;
+    color: white;
+}
+
+.operaciones{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    background-color: black;
+    color: #B55EFE;
+    margin: 20px;
+}
+
+footer{
+    background-image: url(photos/fd1.jpg);
+    border: 2px solid black;
+    margin: 20px;
+    text-align: center;
+    height: 50px;
+}

@@ -1,0 +1,149 @@
+header{
+    font-family: Brush Script MT;
+    border-bottom: 2px solid black;
+    margin: 30px;
+    font-size: larger;
+    text-align: center;
+}
+
+body{
+    background-image: url(photos/fd6.jpg);
+}
+
+.menu{
+    background-image: url(photos/fd1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    padding: auto;
+    border: 2px solid black;
+}
+
+.menu h1{
+    margin: 10px;
+    color: white;
+    width: 5%;
+    border-radius: 10%;
+    text-align: center;
+}
+.estructura{
+    margin: auto;
+}
+
+#parrafo{
+    background-color: black;
+    border: 2px solid black;
+    margin: 20px;
+    text-align: justify;
+    align-items: center;
+    padding: auto;
+}
+
+#parrafo p{
+    color: white;
+}
+
+.main{
+    display: flex;
+}
+
+#list{
+    background-color: black;
+    border: 2px solid black;
+    margin: 20px;
+    width: 80%;
+}
+
+#list h2{
+    text-align: center;
+    color: antiquewhite;
+    width: 50%;
+    background-color: #B55EFE;
+}
+
+#list h1{
+    font-family: Brush Script MT;
+    text-align: center;
+    color: antiquewhite;
+    border-bottom: 2px solid white;
+}
+
+#list img{
+    border-radius: 10%;
+    border: 4px solid #B55EFE;
+    margin: 20px;
+    margin-left: 50px;
+}
+#ps{
+    margin: 20px;
+    color: white;
+    text-align: center
+}
+
+#ps p{
+    font-style: italic;
+    text-align: center;
+    background-color: white;
+    width: 55%;
+    color: black;
+    border-radius: 2%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#ps a{
+    margin: 40px;
+    font-size: larger;
+    display: flex;
+    vertical-align: text-bottom;
+}
+#perfil{
+    background-image: url(photos/fd3.jpg);
+    border: 2px solid black;
+    text-align: center;
+    margin: 20px;
+    width: 20%;
+}
+
+ 
+#perfil h2{
+    color: antiquewhite;
+    width: 80%;
+    background-color: #B55EFE;
+}
+
+#perfil h3{
+    background-color: black;
+    color: white;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+footer{
+    background-image: url(photos/fd1.jpg);
+    border: 2px solid black;
+    margin: 20px;
+    text-align: center;
+}
+
+footer h2{
+    color: black;
+}
+
+.inputs{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 25px;
+    background-color: black;
+}
+
+input{
+    margin: 10px;
+    border: 3px solid #B55EFE;
+}
+
+button{
+    margin: 10px;
+    width: 30%;
+}
